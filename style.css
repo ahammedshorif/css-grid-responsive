@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(202, 207, 207);
+}
+body{
+    background-color: rgb(38, 36, 36);
+    padding: min(50px, 7%);
+    min-height: 100vh;
+}
+
+h1{
+    margin: 30px 0;
+    
+}
+
+.card{
+    padding: 3em;
+    background-color: rgb(83, 82, 82);
+    border: 1px solid lightgrey;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 10px;
+    justify-content: center;
+    
+}
