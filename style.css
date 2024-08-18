@@ -23,6 +23,7 @@ h1{
     border: 1px solid lightgrey;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 0px 0px 4px rgb(228, 225, 181);
    
 }
 h2{
@@ -35,3 +36,4 @@ h2{
     justify-content: center;
     
 }
+
