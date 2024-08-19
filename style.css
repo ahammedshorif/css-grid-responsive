@@ -37,3 +37,7 @@ h2{
     
 }
 
+.card:hover{
+    transform: scale(0.9);
+}
+
